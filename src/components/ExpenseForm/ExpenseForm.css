@@ -1,0 +1,44 @@
+.expense-form-popup {
+    width: 600px;
+    height: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333333;
+    padding: 30px;
+    border-radius: 10px;
+
+    z-index: 1000;
+  }
+  
+  .expense-form-popup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .expense-form-popup label {
+    margin-bottom: 5px;
+    color: #f5f5f5;
+  }
+  
+  .expense-form-popup input,
+  .expense-form-popup select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    background-color: #444444;
+    color: #f5f5f5;
+  }
+  
+  .expense-form-popup button {
+    background-color: #9b51e0;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+  }
+  

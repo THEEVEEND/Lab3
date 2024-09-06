@@ -1,0 +1,98 @@
+.expense-planner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Darker Grotesque', sans-serif; /* Usa la fuente que mencionaste anteriormente */
+    border-radius: 8px;
+  }
+  
+  .expense-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .expense-title h1 {
+    font-size: 28px;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .expense-title button {
+    background: linear-gradient(90deg, #C783D0 0%, #A353D8 100%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .expense-title button:hover {
+    background-color: #0056b3;
+  }
+  
+  .expense-info {
+    display: flex;
+    gap: 40px; 
+  }
+  
+  .expense-right, .expense-left {
+    flex: 1;
+  }
+  
+ 
+  
+  .expense-right .budget-info {
+    text-align: center;
+  }
+  
+  .expense-right .budget-info p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .expense-right button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .expense-right button:hover {
+    background-color: #c82333;
+  }
+  
+  
+  
+ 
+  
+  .expense-list {
+    margin-top: 20px;
+  }
+  
+  .expense-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expense-list li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+   
+  }
+  
+  .expense-list li:hover {
+    background-color: #e2e6ea;
+  }

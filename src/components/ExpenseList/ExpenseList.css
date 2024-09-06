@@ -1,0 +1,48 @@
+.expense-list {
+  width: 100%;
+  color: #fff;
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.expense-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #484848;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expense-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.list {
+  flex-grow: 1;
+}
+
+.list h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.list p {
+  margin: 5px 0;
+  color: #acacac;
+}
+
+.amount {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  align-self: flex-end;
+}
